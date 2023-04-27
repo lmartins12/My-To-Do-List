@@ -1,0 +1,3 @@
+INSERT INTO task (name, description, checked, create_date) VALUES ('Comprar leite', 'Comprar 1L de leite desnatado no mercado', false, '2023-04-27T10:00:00');
+INSERT INTO task (name, description, checked, create_date) VALUES ('Lavar roupa', 'Lavar as roupas brancas', false, '2023-04-26T15:00:00');
+INSERT INTO task (name, description, checked, create_date) VALUES ('Estudar Java', 'Estudar Java por 1 hora', true, '2023-04-24T20:00:00');
