@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./styling/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant';
+    src: url('./styling/Assistant-VariableFont_wght.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.fullscreen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.githubicons{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   
+}
+.ghicon{
+    margin: 10px;
+    font-size: 2rem; /* ajuste o tamanho do ícone conforme necessário */
+    color: white;
+    text-shadow:rgba(111, 124, 242, 0.9) ;
+    
+}
+.newbttn{
+    background: rgba(111, 124, 242, 0.9);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+}
+.title{
+  font-family:'Roboto' ;
+  color: white;
+  font-size: 36px;
+  font-weight: bolder;
+  text-shadow:  rgba(111, 124, 242, 0.9) 0px 5px 15px ;
+}
+
+.subtitle{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 10px;
+}
