@@ -44,12 +44,12 @@
     color: white;
     font-family: 'Roboto';
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1rem;
 }
 .title{
   font-family:'Roboto' ;
   color: white;
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: bolder;
   text-shadow:  rgba(111, 124, 242, 0.9) 0px 5px 15px ;
 }
@@ -58,7 +58,7 @@
     font-family: 'Assistant';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 1rem;
     line-height: 16px;
     color: #FFFFFF;
     margin: 10px;
